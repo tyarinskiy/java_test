@@ -5,5 +5,7 @@ public class Main {
     public static void main(String[] args) {
 	    Shape circle = new Circle();
         circle.draw();
-    } //obstar class ne mozet sam vizivat metod. i ne mozet imet polei
+    } //
+    //бстрактный класс ничего не реализует. Внутри него можно лишь указать все методы и поля,
+    // которые необходимо реализовывать во всех классах наследниках.
 }
