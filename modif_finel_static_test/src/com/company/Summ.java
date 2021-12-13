@@ -1,7 +1,7 @@
 package com.company;
 
 public class Summ {
-    private static int allSum = 0;
+    private static int allSum = 0; // без static не увидит ниже allSum
 
     public void summ(int a, int b){
         System.out.println("Суммы: " + (a + b));
