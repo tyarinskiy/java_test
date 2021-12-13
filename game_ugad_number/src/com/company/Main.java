@@ -3,12 +3,11 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        Me tsts = new Me();
-        tsts.givMyNumber();
-        tsts.print();
+        Gamer Iam = new Me("Alex");
+        Gamer newAnimy = new Animy("angryHuy");
 
-        Animy newAnimy = new Animy();
-        newAnimy.getAnimyChose();
-        newAnimy.print();
+        Iam.printInfo();
+        newAnimy.printInfo();
+
     }
 }
