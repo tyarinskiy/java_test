@@ -11,9 +11,9 @@ public class Animy extends Gamer {
         super(animyName);
     }
 
-    public void printInfo(){
-        System.out.println("Animy name: " + super.getAnimyName());
-    }
+//    public void printInfo(){
+//        System.out.println("Animy name: " + super.getAnimyName());
+//    }
 }
 
 

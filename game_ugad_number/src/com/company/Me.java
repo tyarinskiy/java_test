@@ -3,23 +3,15 @@ package com.company;
 import java.util.Scanner;
 
 public class Me extends Gamer {
-    private int myNumber;
-    Scanner in = new Scanner(System.in);
 
-    public Me (String myName){
-        super(myName);
+    public Me (String gamerName){
+        super(gamerName);
     }
 
-    public void printInfo(){
-        System.out.println("Мое имя: " + super.getMyName());
-    }
 
-    //get (){
-//        System.out.println("Загадайте число от 1 до 20: ");
-//        myNumber = in.nextInt();
+//    public void printInfo(){
+//        System.out.println("Мое имя: " + super.getMyName());
 //    }
-//    public void print (){
-//        System.out.println(myNumber);
-//    }
+
 
 }
