@@ -1,29 +1,22 @@
 package com.company;
 
 import java.util.Random;
-import java.util.Scanner;
 
 public class Animy extends Gamer {
-    private int animyNumber;
-    Scanner in = new Scanner(System.in);
+    static int animNumber;
 
-    public Animy(String animyName) {
-        super(animyName);
+    public Animy (String gamerName){
+        super(gamerName);
     }
 
-//    public void printInfo(){
-//        System.out.println("Animy name: " + super.getAnimyName());
-//    }
+    public void printInf () {
+        System.out.println(gamerName);
+    }
+
+    public static int GetAnyNum() {
+        int first = 1, sec = 20;
+        Random rand = new Random();
+        animNumber = (int) first + rand.nextInt(sec - first + 1);
+        return animNumber;
+    }
 }
-
-
-    //    private int animyChose;
-//    private int first = 1, sec = 20;
-//    public void getAnimyChose (){
-//        Random rand = new Random();
-//        animyChose = (int) first + rand.nextInt(sec - first + 1);
-//    }
-//    public void print (){
-//        System.out.println(animyChose);
-//    }
-
