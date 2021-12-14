@@ -12,14 +12,16 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println(Me.GetNum());
-        System.out.println(Animy.GetAnyNum());
+//        System.out.println(Me.GetNum());
+//        System.out.println(Animy.GetAnyNum());
 
-        Gamer mynam = new Me("apossum");
+        Gamer mynam = new Me("apossum");  //вввод имени с клавиатуры см. полиморфизм
         mynam.printInf();
 
         Gamer animy = new Animy("angryHui");
         animy.printInf();
 
+        System.out.println(Me.GetNum());
+        System.out.println(Animy.GetAnyNum());
     }
 }
