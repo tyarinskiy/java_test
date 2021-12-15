@@ -9,8 +9,12 @@ public class Animy extends Gamer {
         super(gamerName);
     }
 
-    public void printInf () {
-        System.out.println(gamerName);
+//    public void printInf () {
+//        System.out.println(gamerName);
+//    }
+
+    public void printAniName(){
+        System.out.println(animNumber);
     }
 
     public static int GetAnyNum() {

@@ -16,10 +16,12 @@ public class Me extends Gamer {
 
     }
 
-
-    public void printInf () {
+    public void printMyName(){
         System.out.println(gamerName);
     }
+ //   public void printInf () {
+ //       System.out.println(gamerName);
+ //   }
 
 
 }

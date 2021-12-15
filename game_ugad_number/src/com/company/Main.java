@@ -1,5 +1,7 @@
 package com.company;
 
+import org.w3c.dom.ls.LSOutput;
+
 public class Main {
 //    public static int getMyNumber () {
 //        int myNumber;
@@ -12,13 +14,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-//        System.out.println(Me.GetNum());
-//        System.out.println(Animy.GetAnyNum());
 
         Gamer mynam = new Me("apossum");  //вввод имени с клавиатуры см. полиморфизм
+
+ //        mynam.printInf();
         mynam.printInf();
 
         Gamer animy = new Animy("angryHui");
+//        animy.printInf();
         animy.printInf();
 
         System.out.println(Me.GetNum());
