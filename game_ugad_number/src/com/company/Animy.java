@@ -12,14 +12,16 @@ public class Animy extends Gamer {
 
     public int GetAnyNum() {
         Random rand = new Random();
-        this.animNumber = (int) this.first + rand.nextInt(this.sec - this.first + 1);
+        animNumber = (int) first + rand.nextInt(sec - first + 1);
+//        if (animNumber)
+
         return this.animNumber;
-  
+
     }
 
 //    public int tryToKill(){
 
-    }
+ //   }
 
     //    public void Animy(int first, int sec) {
 //        this.first = first;
@@ -29,14 +31,6 @@ public class Animy extends Gamer {
 //    public void printInf () {
 //        System.out.println(gamerName);
 //    }
-
-    public void printAniName(){
-        System.out.println(animNumber);
-    }
-
-
-
-
 
 //
 //    void testin(Me huy){
