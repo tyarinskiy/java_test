@@ -13,14 +13,15 @@ public class Animy extends Gamer {
     public int GetAnyNum(Me man) {
         Random rand = new Random();
         animNumber = (int) first + rand.nextInt(sec - first + 1);
+        System.out.println("Ебану ка я в: " + animNumber);
         if (animNumber == man.number) {
             System.out.println("Попал нах!!!");
         } else if (animNumber > man.number){
             System.out.println("Мимо, Число чела меньше!");
-            sec = animNumber;
+            sec = animNumber - 1;
         } else {
             System.out.println("Мимо, число чела больше!");
-            first = animNumber;
+            first = animNumber + 1;
         }
         return this.animNumber;
     }

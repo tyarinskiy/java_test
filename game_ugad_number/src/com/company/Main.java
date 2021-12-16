@@ -12,9 +12,15 @@ public class Main {
 
         numMy = Iam.GetNum();
 
-        animy.GetAnyNum(Iam);
-//        System.out.println(animy.first + "   " + animy.sec);
-//        System.out.println(Animy.GetAnyNum());
+//        animy.GetAnyNum(Iam);
+
+        while (numMy != animy.animNumber){
+            animy.GetAnyNum(Iam);
+        }
+
+
+            //        System.out.println(animy.first + "   " + animy.sec);
+
 
 
     }
