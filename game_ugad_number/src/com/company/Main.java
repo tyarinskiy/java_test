@@ -13,18 +13,18 @@ public class Main {
 //    }
 
     public static void main(String[] args) {
+        int numMy;
+
+        Me Iam = new Me("apossum");  //вввод имени с клавиатуры см. полиморфизм
+        Animy animy = new Animy("angryHui");
+
+        numMy = Iam.GetNum();
+        System.out.println(animy.GetAnyNum());
 
 
-        Gamer mynam = new Me("apossum");  //вввод имени с клавиатуры см. полиморфизм
 
- //        mynam.printInf();
-        mynam.printInf();
+//        System.out.println(Animy.GetAnyNum());
 
-        Gamer animy = new Animy("angryHui");
-//        animy.printInf();
-        animy.printInf();
 
-        System.out.println(Me.GetNum());
-        System.out.println(Animy.GetAnyNum());
     }
 }

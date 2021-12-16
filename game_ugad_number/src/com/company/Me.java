@@ -1,24 +1,27 @@
 package com.company;
 
-import java.util.Scanner;
 
 public class Me extends Gamer {
-    public static int number;
+    int test = 55555;
+    public int number;
     public Me (String gamerName){
         super(gamerName); // для доступа к основному классу (переменной)
     }
 
-    public static int GetNum() {
-        Scanner in = new Scanner(System.in);
+//    public Me() {
+//        super();                 //конструктор для  getnum
+//    }
+
+    public int GetNum() {
+        int number;
         System.out.println("Загадайте число от 1 до 20: ");
-        number = in.nextInt();
+        number = this.in.nextInt();
         return number;
-
     }
 
-    public void printMyName(){
-        System.out.println(gamerName);
-    }
+//        public void printMyName(){
+//        System.out.println(gamerName);
+//    }
  //   public void printInf () {
  //       System.out.println(gamerName);
  //   }
