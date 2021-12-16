@@ -12,14 +12,7 @@ public class Gamer {
         this.gamerName = gamerName;
     }
 
-//    public Gamer(){}; // конструктор для getnum
-
-
-
 //    public void printInf(){
 //        System.out.println(this.gamerName);
-//    }
-//
-//    public void test() {
 //    }
 }
