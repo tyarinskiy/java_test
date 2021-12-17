@@ -6,22 +6,20 @@ public class Main {
 
     public static void main(String[] args) {
         int numMy;
+        int aniNum;
 
         Me Iam = new Me("apossum");  //вввод имени с клавиатуры см. полиморфизм
         Animy animy = new Animy("angryHui");
 
         numMy = Iam.GetNum();
+        aniNum = animy.getAnimyNumber();
 
-//        animy.GetAnyNum(Iam);
+        while ((aniNum != Iam.meNumber) && (numMy != animy.animNumber)){
 
-        while (numMy != animy.animNumber){
-            animy.GetAnyNum(Iam);
+            System.out.println(numMy + " " + animy.animNumber + " " + aniNum + " " + Iam.meNumber);
+            animy.tryToKillMi(Iam);
+            Iam.tryToKillAni(animy);
         }
-
-
-            //        System.out.println(animy.first + "   " + animy.sec);
-
-
 
     }
 }
