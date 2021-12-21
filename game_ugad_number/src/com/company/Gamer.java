@@ -12,7 +12,4 @@ public class Gamer {
         this.gamerName = gamerName;
     }
 
-//    public void printInf(){
-//        System.out.println(this.gamerName);
-//    }
 }

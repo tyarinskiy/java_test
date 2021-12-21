@@ -2,8 +2,8 @@ package com.company;
 
 
 public class Me extends Gamer {
-    int meNumber;
-    public int number;
+    protected int meNumber;
+    protected int number;
     public Me (String gamerName){
         super(gamerName); // для доступа к основному классу (переменной)
     }
@@ -15,7 +15,7 @@ public class Me extends Gamer {
     }
 
     public int tryToKillAni(Animy ani){
-        System.out.println("Давай ебнем по врагу, выбери число от 1 до 20: ");
+        System.out.println("Попробуй угадать число врага, выбери цифру от 1 до 20: ");
         meNumber = this.in.nextInt();
         if (meNumber == ani.secretNum) {
             System.out.println("Капец тебе враг! точное попадание!");
